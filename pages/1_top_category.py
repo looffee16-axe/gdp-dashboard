@@ -88,7 +88,7 @@ st.header('Category', divider='gray')
 
 ''
 
-st.line_chart(
+st.bar_chart(
     filtered_df,
     x='Year',
     y='OrderQuantity',
